@@ -7,6 +7,7 @@ It's a set of Erlang "helper" modules, nothing any more.
 Clone it inside your project (maybe in "deps" directory), and...
 
     $ make ungit
+    $ mkdir ebin
     $ make
 
 And finally, put it in the code path of your application.
