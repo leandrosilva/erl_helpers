@@ -1,4 +1,4 @@
-## erl_herlpers
+## erl_helpers
 
 It's a set of Erlang "helper" modules, nothing any more.
 
