@@ -4,14 +4,14 @@ It's a set of Erlang "helper" modules, nothing any more.
 
 ## Install
 
-Inside "deps" directory of your OTP application, for exemple:
+Inside "deps" directory of your OTP application, for example:
 
     $ git clone git@github.com:leandrosilva/erl_helpers.git
     $ cd erl_helpers
     $ make ungit
     $ make
 
-And finally, put it in the code path of your application.
+And finally, put it in the code path of your application and enjoy it.
 
 ## 3rd party modules
 
