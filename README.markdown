@@ -6,6 +6,7 @@ It's a set of Erlang "helper" modules, nothing any more.
 
 Clone it inside your project (maybe in "deps" directory), and...
 
+    $ cd erl_helpers
     $ make ungit
     $ mkdir ebin
     $ make
