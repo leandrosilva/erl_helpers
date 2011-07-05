@@ -2,10 +2,11 @@
 
 It's a set of Erlang "helper" modules, nothing any more.
 
-## Usage
+## Install
 
-Clone it inside your project (maybe in "deps" directory), and...
+Inside "deps" directory of your OTP application, for exemple:
 
+    $ git clone git@github.com:leandrosilva/erl_helpers.git
     $ cd erl_helpers
     $ make ungit
     $ make
