@@ -1,8 +1,8 @@
-## erl_helpers
+# erl_helpers
 
 It's a set of Erlang "helper" modules, nothing any more.
 
-### Usage
+## Usage
 
 Clone it inside your project (maybe in "deps" directory), and...
 
@@ -12,11 +12,11 @@ Clone it inside your project (maybe in "deps" directory), and...
 
 And finally, put it in the code path of your application.
 
-### 3rd party modules
+## 3rd party modules
 
 These modules __mochijason2__ and __struct__ weren't built by me. However I added three new functions in __struct__: from_json/1, from_json/2, to_json/1.
 
-### Copyright
+## Copyright
 
 There's no formal LICENSE. Use as you want!
 
