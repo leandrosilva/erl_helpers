@@ -1,6 +1,7 @@
 all: compile
 
 compile: clear
+	@mkdir -p ebin
 	@erlc -o ebin src/*.erl
 
 clear:

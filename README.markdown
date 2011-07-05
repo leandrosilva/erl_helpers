@@ -8,7 +8,6 @@ Clone it inside your project (maybe in "deps" directory), and...
 
     $ cd erl_helpers
     $ make ungit
-    $ mkdir ebin
     $ make
 
 And finally, put it in the code path of your application.
