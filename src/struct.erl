@@ -25,6 +25,7 @@
 %% by codezone
 -export([from_json/1, from_json/2, to_json/1]).
 -export([new/2]).
+-export([get_value/3]).
 
 %% @type key() = binary()
 %% @type value() = [integer() | float() | atom() | tuple() | binary() | string() | list()]
@@ -180,3 +181,24 @@ new(Key, Value) when not is_binary(Value) ->
 
 new(Key, Value) ->
   {struct, [{list_to_binary(Key), Value}]}.
+
+
+%% @spec get_value(as_json, key(), struct()) -> list()
+%% @doc by codezone
+get_value(Key, Struct, {format, json}) ->
+  case get_value(Key, Struct) of
+    undefined -> undefined;
+    Value     -> to_json(Value)
+  end;
+  
+get_value(Key, Struct, {format, atom}) ->
+  case get_value(Key, Struct) of
+    undefined -> undefined;
+    Value     -> binary_to_existing_atom(Value, unicode)
+  end;
+  
+get_value(Key, Struct, {format, list}) ->
+  case get_value(Key, Struct) of
+    undefined -> undefined;
+    Value     -> binary_to_list(Value)
+  end.
