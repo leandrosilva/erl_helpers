@@ -3,7 +3,7 @@
 
 %% @doc Utility functions to supervisor modules.
 
--module(supervisor_helper).
+-module(eh_supervisor).
 -author('Leandro Silva <leandrodoze@gmail.com>').
 
 % public api

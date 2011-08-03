@@ -3,7 +3,7 @@
 
 %% @doc Helper module to leverage kind of shy "maybe monad".
 
--module(maybe_helper).
+-module(eh_maybe).
 -export([maybe_string/1, maybe_padding/1, maybe_ok/1, maybe_undefined/1]).
 -export([maybe_binary/1, maybe_integer/1]).
 

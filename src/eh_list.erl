@@ -3,7 +3,7 @@
 
 %% @doc Helper module to list.
 
--module(list_helper).
+-module(eh_list).
 -export([to_properties/1]).
 
 %% @spec to_properties(List) -> PropertyList

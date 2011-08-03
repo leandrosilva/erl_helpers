@@ -3,7 +3,7 @@
 
 %% @doc Helper module to deal with date/time.
 
--module(datetime_helper).
+-module(eh_datetime).
 -export([now/0]).
 
 %% @spec now() -> "MM-DD-YYYY hh:mm:ss"

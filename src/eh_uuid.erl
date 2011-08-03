@@ -3,7 +3,7 @@
 
 %% @doc Helper module to generate UUID.
 
--module(uuid_helper).
+-module(eh_uuid).
 -export([new/0, test_unique/0]).
 
 new() ->

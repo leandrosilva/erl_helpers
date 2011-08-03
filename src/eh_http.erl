@@ -3,7 +3,7 @@
 
 %% @doc Helper module for http operations with httpc and mochiweb_request modules.
 
--module(http_helper).
+-module(eh_http).
 -author('Leandro Silva <leandrodoze@gmail.com>').
 
 -export([http_post/2, http_get/1, http_put/2, http_delete/1]).
